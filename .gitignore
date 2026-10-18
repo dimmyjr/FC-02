@@ -48,6 +48,5 @@ tools/keys.json
 *.log
 
 # Project specific
-screenshots/
 results/
 .claude/

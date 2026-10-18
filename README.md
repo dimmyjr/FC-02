@@ -227,10 +227,26 @@ Métricas Base:
 
 ### Screenshots
 
-> Adicione aqui as capturas de tela (pasta `screenshots/`):
-> 1. Dataset de avaliação com **15 exemplos**;
-> 2. Experimento do `v2` com as **5 notas ≥ 0.8**;
-> 3. **Tracing detalhado** de pelo menos 3 exemplos (aba *Runs/Traces* do experimento).
+Salve as imagens em `screenshots/` **com exatamente estes nomes** para que apareçam
+automaticamente abaixo:
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `01-dataset-15-exemplos.png` | Dataset de avaliação com os **15 exemplos** |
+| `02-experimento-metricas.png` | Experimento do `v2` com as **5 notas ≥ 0.8** |
+| `03-tracing-exemplos.png` | **Tracing detalhado** de ≥ 3 exemplos (aba *Runs/Traces*) |
+
+**1. Dataset de avaliação (15 exemplos)**
+
+![Dataset de avaliação com 15 exemplos](screenshots/01-dataset-15-exemplos.png)
+
+**2. Experimento do prompt v2 (5 métricas ≥ 0.8)**
+
+![Experimento do prompt v2 com as 5 métricas](screenshots/02-experimento-metricas.png)
+
+**3. Tracing detalhado (≥ 3 exemplos)**
+
+![Tracing detalhado de exemplos no LangSmith](screenshots/03-tracing-exemplos.png)
 
 ---
 
@@ -295,6 +311,7 @@ mba-ia-pull-evaluation-prompt/
 │   └── utils.py                   # pronto
 ├── tests/
 │   └── test_prompts.py            # 7 testes implementados
+├── screenshots/                   # evidências (dataset, experimento, tracing)
 └── tools/
     └── gemini_proxy.py            # OPCIONAL (ver nota abaixo)
 ```
