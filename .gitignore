@@ -29,6 +29,9 @@ ENV/
 .env
 .env.local
 
+# Chaves do proxy local (nunca versionar)
+tools/keys.json
+
 # IDE
 .vscode/
 .idea/
